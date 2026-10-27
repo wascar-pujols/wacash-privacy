@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy policy — WaCash</title><link rel="stylesheet" href="style.css"></head>
+<body><main>
+<nav><a href="index.html">WaCash</a> · <a href="privacidad.html">Español</a></nav>
+<article>
+<h1>WaCash privacy policy</h1>
+<p class="meta">Last updated: October 26, 2026</p>
+
+<h2>1. Who is responsible</h2>
+<p>WaCash is a personal finance app for Android created by Wascar Pujols (the "developer"). For any privacy question, write to <a href="mailto:pujolswascar123@gmail.com">pujolswascar123@gmail.com</a>.</p>
+
+<h2>2. Summary</h2>
+<ul>
+<li>Your transactions, categories, tags, attachments and settings <strong>are stored only on your phone</strong>.</li>
+<li>WaCash <strong>has no servers of its own</strong>, no user accounts, no ads, and no analytics or tracking tools.</li>
+<li>The developer <strong>does not receive, see or sell</strong> your data, and does not share it with third parties.</li>
+<li>The only time the app connects to the internet is if <strong>you turn on</strong> the Google Drive backup.</li>
+</ul>
+
+<h2>3. What data the app handles</h2>
+<table>
+<tr><th>Data</th><th>Where it stays</th></tr>
+<tr><td>Transactions (amount, date, description), categories, tags, budgets and recurring items</td><td>The app's private database, on your phone</td></tr>
+<tr><td>Attachments (photos and PDFs you choose)</td><td>The app's private internal storage</td></tr>
+<tr><td>Settings (language, theme, currency, display name, opening balance)</td><td>Your phone</td></tr>
+<tr><td>Lock PIN</td><td>The PIN itself is never stored: only a cryptographic fingerprint protected by an Android Keystore key. It never leaves the phone</td></tr>
+<tr><td>Fingerprint or face</td><td>Handled by Android. WaCash only receives "success" or "failed"</td></tr>
+<tr><td>Name and email of your Google account (only if you connect Drive)</td><td>Shown on the backup screen and stored only on your phone</td></tr>
+</table>
+
+<h2>4. Google Drive backup (optional)</h2>
+<p>If you turn on the Drive backup, WaCash creates a file with your database and attachments and <strong>encrypts it on your phone</strong> (AES-256-GCM) with a password only you know. It then uploads it to a hidden app folder inside <strong>your own Google Drive</strong>, using only the <code>drive.appdata</code> permission. The developer has no access to that folder or to your account. The last 10 versions are kept. Google handles data stored in Drive under its own <a href="https://policies.google.com/privacy">privacy policy</a>.</p>
+<p><strong>Important:</strong> if you lose the backup password, nobody can open the backup, including the developer.</p>
+<p>You can also create and restore a manual backup (an encrypted <code>.wacash</code> file) and export your transactions to CSV, Excel or PDF. Those files are saved wherever you choose with the system file picker.</p>
+
+<h2>5. Permissions</h2>
+<ul>
+<li><strong>Notifications</strong> (Android 13 or later): only if you turn on the daily reminder, a recurring item with confirmation, or budget alerts. It is optional.</li>
+<li><strong>Internet</strong>: only for the Google Drive backup, always over HTTPS.</li>
+<li><strong>Fingerprint or face</strong>: only to unlock the app if you turn it on.</li>
+<li><strong>Camera, photos and files</strong>: WaCash does not request these permissions. It uses the system camera, the photo picker and the document picker, and only receives what you choose.</li>
+</ul>
+
+<h2>6. Retention and deletion of your data</h2>
+<ul>
+<li><strong>On your phone:</strong> you can delete transactions in the app (they stay in the trash for 30 days, then are erased) or uninstall WaCash, which removes all local data.</li>
+<li><strong>In Google Drive:</strong> under <em>More › Backup › Disconnect</em> you can choose to also delete all WaCash backups from your Drive. You can also revoke the permission at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+<li>Because the developer does not receive your data, there are no copies to delete.</li>
+</ul>
+
+<h2>7. Security</h2>
+<ul>
+<li>Optional lock with PIN and fingerprint or face; while the app is locked, your information is not visible inside it. The home screen widget, if you choose to add it, shows the month's cash flow.</li>
+<li>An option to hide WaCash in screenshots and in the recent apps view.</li>
+<li>The app does not allow Android to copy its data into automatic backups: only WaCash's encrypted backups apply.</li>
+<li>All network traffic uses HTTPS.</li>
+</ul>
+
+<h2>8. Children</h2>
+<p>WaCash is not directed to children under 13 and does not collect data from them.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If the way WaCash handles data changes, this page and the date above will be updated.</p>
+
+<h2>10. Contact</h2>
+<p>Wascar Pujols · <a href="mailto:pujolswascar123@gmail.com">pujolswascar123@gmail.com</a></p>
+</article>
+</main></body></html>
